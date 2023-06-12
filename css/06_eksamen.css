@@ -1,0 +1,18 @@
+/*************LAYOUT WEB*****************/
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+  }
+  .overskrift_02_web {
+    margin-top: 250px;
+  }
+}
+.knap_o {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-top: 2px;
+}

@@ -1,0 +1,39 @@
+/*************LAYOUT WEB*****************/
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+  }
+}
+.mig {
+  width: auto;
+  height: 75;
+}
+#overskrift_om_mig {
+  font-family: "stolzl", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 4rem;
+  margin: 20px 7px;
+  text-align: left;
+}
+/*WEB*/
+@media (min-width: 800px) {
+  h1 {
+    font-family: "stolzl", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 5rem;
+  }
+}
+.knap_o {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-top: 2px;
+  margin-bottom: 30px;
+}

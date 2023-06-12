@@ -1,0 +1,44 @@
+/*************LAYOUT WEB*****************/
+@media (min-width: 800px) {
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+}
+.knap_p {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.hidden {
+  visibility: hidden;
+}
+#pp {
+  text-align: center;
+  margin-bottom: 0px;
+}
+#pp1 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+#pp2 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+#pp3 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+#pp4 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+#pp5 {
+  text-align: center;
+  margin-bottom: 0px;
+}
