@@ -1,4 +1,3 @@
-/******************GENEREL STYLE CSS*******************/
 * {
   margin: 0;
   padding: 0;
@@ -23,47 +22,73 @@ body {
   }
 }
 /******************BAGGRUND***********************/
-body {
-  background-color: black;
-  z-index: -1;
-}
+
 .forside_baggrund {
-  background-image: url("/img/test-100.jpg");
+  background-image: url("baggrund_forside.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
 }
 .om_mig_baggrund {
-  background-image: url("/img/baggrund_om_mig.png");
+  background-image: url("baggrund_om_mig.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
 }
 .projekter_baggrund {
-  background-image: url("/img/baggrund_projekter.png");
+  background-image: url("baggrund_projekter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
 }
 .baggrund_kontakt {
-  background-image: url("/img/baggrund_kontakt.png");
+  background-image: url("baggrund_kontakt.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
 }
 .baggrund_02 {
-  background-image: url("/img/baggrund_kontakt.png");
+  background-image: url("baggrund_kontakt.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
 }
 .baggrund_03 {
-  background-image: url("/img/baggrund_projekter.png");
+  background-image: url("baggrund_projekter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
 }
 .baggrund_04 {
-  background-image: url("/img/baggrund_om_mig.png");
+  background-image: url("baggrund_om_mig.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
 }
 .baggrund_05 {
   background-image: url("/img/baggrund_kontakt.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
 }
 .baggrund_06 {
   background-image: url("/img/baggrund_kontakt.png");
-}
-
-.forside_baggrund,
-.om_mig_baggrund,
-.projekter_baggrund,
-.baggrund_kontakt,
-.baggrund_02,
-.baggrund_03,
-.baggrund_04,
-.baggrund_05,
-.baggrund_06 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -71,6 +96,10 @@ body {
   width: 100%;
 }
 
+body {
+  background-color: black;
+  z-index: -100;
+}
 /********************LOGO******************************/
 #logo {
   width: 50px;
@@ -86,7 +115,7 @@ h1 {
   font-weight: 100;
   font-style: normal;
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 20px 7px;
   text-align: center;
 }
@@ -97,7 +126,7 @@ h1 {
     font-weight: 100;
     font-style: normal;
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
   }
 }
@@ -106,7 +135,7 @@ h2 {
   font-weight: 300;
   font-style: normal;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 20px 7px;
 }
 /*WEB*/
@@ -116,7 +145,7 @@ h2 {
     font-weight: 300;
     font-style: normal;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 20px 7px;
   }
 }
@@ -125,7 +154,7 @@ h3 {
   font-weight: 400;
   font-style: normal;
   color: orange;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin: 20px 10px;
 }
 /*WEB*/
@@ -135,7 +164,7 @@ h3 {
     font-weight: 400;
     font-style: normal;
     color: orange;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 20px 10px;
   }
 }
@@ -145,8 +174,8 @@ p {
   font-weight: 400;
   font-style: normal;
   color: white;
-  font-size: 1rem;
-  line-height: 1.7;
+  font-size: 0.8rem;
+  line-height: 1.9;
   margin: 15px 10px;
 }
 /*WEB*/
@@ -156,8 +185,8 @@ p {
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 1rem;
-    line-height: 1.7;
+    font-size: 0.8rem;
+    line-height: 1.9;
     margin: 20px 5px;
   }
 }
@@ -167,7 +196,7 @@ a {
   font-style: normal;
   color: white;
   font-size: 1rem;
-  line-height: 1.7;
+  line-height: 1.9;
   margin: 7px 7px;
 }
 /*WEB*/
@@ -178,7 +207,7 @@ a {
     font-style: normal;
     color: white;
     font-size: 1rem;
-    line-height: 1.7;
+    line-height: 1.4;
   }
 }
 /**********************FOOTER***********************/

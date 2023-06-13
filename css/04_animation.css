@@ -16,13 +16,13 @@
 #overskrift_02_web {
   align-items: left;
   align-items: left;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 @media (min-width: 800px) {
   #overskrift_02_web {
     align-items: left;
     align-items: left;
-    font-size: 5rem;
+    font-size: 4rem;
     margin-top: 300px;
   }
 }
