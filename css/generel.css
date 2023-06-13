@@ -28,7 +28,7 @@ body {
   z-index: -1;
 }
 .forside_baggrund {
-  background-image: url("/img/baggrund_forside.png");
+  background-image: url("/img/test-100.jpg");
 }
 .om_mig_baggrund {
   background-image: url("/img/baggrund_om_mig.png");
