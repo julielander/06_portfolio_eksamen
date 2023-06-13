@@ -30,6 +30,7 @@
   height: auto;
   margin-top: 20%;
 }
+
 @media (min-width: 800px) {
   .mig {
     width: 100%;

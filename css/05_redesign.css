@@ -13,6 +13,7 @@
     width: 50vw;
     max-width: 100%;
     object-fit: contain;
+    margin-top: 25px;
   }
 }
 .knap_o {
