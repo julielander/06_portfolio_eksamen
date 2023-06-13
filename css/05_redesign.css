@@ -8,6 +8,12 @@
   .overskrift_02_web {
     margin-top: 250px;
   }
+  video {
+    height: auto;
+    width: 50vw;
+    max-width: 100%;
+    object-fit: contain;
+  }
 }
 .knap_o {
   height: auto;
@@ -18,7 +24,7 @@
 }
 video {
   height: auto;
-  width: 50vw;
-  max-width: 100%; /* Sørger for, at billedet ikke bliver bredere end den oprindelige størrelse */
+  width: 100vw;
+  max-width: 100%;
   object-fit: contain;
 }

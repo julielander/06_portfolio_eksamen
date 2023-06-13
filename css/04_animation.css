@@ -5,12 +5,6 @@
     grid-template-columns: 1fr 1fr;
     gap: 100px;
   }
-  #overskrift_02_web {
-    align-items: left;
-    align-items: left;
-    font-size: 4rem;
-    margin-top: 250px;
-  }
 }
 .knap_o {
   height: auto;
@@ -18,4 +12,17 @@
   display: flex;
   justify-content: right;
   margin-top: 2px;
+}
+#overskrift_02_web {
+  align-items: left;
+  align-items: left;
+  font-size: 3.5rem;
+}
+@media (min-width: 800px) {
+  #overskrift_02_web {
+    align-items: left;
+    align-items: left;
+    font-size: 5rem;
+    margin-top: 300px;
+  }
 }

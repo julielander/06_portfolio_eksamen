@@ -8,6 +8,7 @@ img {
   width: 100%;
   display: block;
   height: auto;
+  margin: 10px;
 }
 html,
 body {
@@ -70,26 +71,19 @@ body {
   width: 100%;
 }
 
-/******************FONT-FAMILY************************/
-Darkmode DarkmodeOff Regular {
-  font-family: "darkmode-off", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-Stolzl Thin {
-  font-family: "stolzl", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
 /********************LOGO******************************/
-.logo {
-  width: 150px;
+#logo {
+  width: 50px;
   height: auto;
+  align-self: center;
+  display: inline;
+  margin: 0;
+  padding-top: 20px;
 }
 /*******************OVERSKIRFTER**************************/
 h1 {
-  font-family: "stolzl", sans-serif;
-  font-weight: 300;
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
   font-style: normal;
   color: white;
   font-size: 4rem;
@@ -99,8 +93,8 @@ h1 {
 /*WEB*/
 @media (min-width: 800px) {
   h1 {
-    font-family: "stolzl", sans-serif;
-    font-weight: 300;
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
     font-style: normal;
     color: white;
     font-size: 5rem;
@@ -108,7 +102,7 @@ h1 {
   }
 }
 h2 {
-  font-family: "darkmode-off", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: white;
@@ -118,7 +112,7 @@ h2 {
 /*WEB*/
 @media (min-width: 800px) {
   h2 {
-    font-family: "darkmode-off", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-style: normal;
     color: white;
@@ -127,38 +121,38 @@ h2 {
   }
 }
 h3 {
-  font-family: "darkmode-off", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: orange;
   font-size: 1.3rem;
-  margin: 20px 7px;
+  margin: 20px 10px;
 }
 /*WEB*/
 @media (min-width: 800px) {
   h3 {
-    font-family: "darkmode-off", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: orange;
     font-size: 1.3rem;
-    margin: 20px 7px;
+    margin: 20px 10px;
   }
 }
 /*********************P******************************/
 p {
-  font-family: "darkmode-off", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: white;
   font-size: 1rem;
   line-height: 1.7;
-  margin: 15px 7px;
+  margin: 15px 10px;
 }
 /*WEB*/
 @media (min-width: 800px) {
   p {
-    font-family: "darkmode-off", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
@@ -168,7 +162,7 @@ p {
   }
 }
 a {
-  font-family: "darkmode-off", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: white;
@@ -179,7 +173,7 @@ a {
 /*WEB*/
 @media (min-width: 800px) {
   a {
-    font-family: "darkmode-off", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
@@ -244,7 +238,8 @@ nav {
 }
 
 .menu a:hover {
-  color: blue;
+  color: orange;
+  text-shadow: orange 6px 6px 10px;
 }
 
 .burger {
@@ -266,8 +261,8 @@ nav {
 li a {
   text-decoration: none;
   color: white;
-  font-family: "stolzl", sans-serif;
-  font-weight: 300;
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
   font-size: 1rem;
   padding: 10px 9px 10px 9px;
 }
@@ -316,8 +311,16 @@ a:hover {
     top: 0;
     padding: 1rem 2rem;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: baseline;
+  }
+  #logo {
+    width: 80px;
+    height: auto;
+    align-self: center;
+    display: inline;
+    margin: 0;
+    padding-top: 20px;
   }
 
   header nav ul {
@@ -332,47 +335,69 @@ a:hover {
   li a {
     text-decoration: none;
     color: white;
-    font-family: "stolzl", sans-serif;
-    font-weight: 300;
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
     font-style: normal;
     font-size: 1rem;
   }
   a:hover {
     text-decoration: underline;
   }
+}
+/***************BUTTON*********************/
+.knap {
+  padding: 15px 30px;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: orange;
+  text-decoration: none;
+  color: orange;
+  cursor: pointer;
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-size: 0.8rem;
+  transform: scale(1);
+  transition: transform 0.3s;
+}
 
-  /***************BUTTON*********************/
-  .knap {
-    padding: 15px 30px;
-    border-radius: 50px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: orange;
-    text-decoration: none;
-    color: orange;
-    cursor: pointer;
-    font-family: "stolzl", sans-serif;
-    font-weight: 100;
-    font-size: 0.8rem;
+.knap:hover {
+  transform: scale(1.3);
+}
+
+.knap:hover,
+.knap:focus {
+  animation: none;
+}
+
+/*******************ANIMATION****************/
+@keyframes zoom-out {
+  from {
+    transform: scale(1.1);
+  }
+  to {
     transform: scale(1);
-    transition: transform 0.3s;
   }
+}
+.bouncing {
+  animation-name: bouncing_kf;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 
-  .knap:hover {
-    transform: scale(1.3);
+@keyframes bouncing_kf {
+  from {
+    translate: 0 -5%;
   }
-
-  .knap:hover,
-  .knap:focus {
-    animation: none;
+  to {
+    translate: 0 10%;
   }
-
-  @keyframes zoom-out {
-    from {
-      transform: scale(1.1);
-    }
-    to {
-      transform: scale(1);
-    }
-  }
+}
+#myImage {
+  transition: transform 0.3s;
+}
+.zoomed {
+  transform: scale(1.1);
 }

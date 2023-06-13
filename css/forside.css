@@ -1,7 +1,7 @@
 /********************OVBERSKRIFTER FORSIDE*********************/
 .o1 {
-  font-family: "stolzl", sans-serif;
-  font-weight: 350;
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
   font-style: normal;
   color: white;
   text-align: center;
@@ -10,33 +10,32 @@
   margin-bottom: 5px;
 }
 .o2 {
-  font-family: "stolzl", sans-serif;
-  font-weight: 300;
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
   font-style: normal;
-  color: white;
+  color: orange;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 2px;
 }
 /***********WEB****************/
 @media (min-width: 800px) {
   .o1 {
-    font-family: "stolzl", sans-serif;
-    font-weight: 350;
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
     font-style: normal;
     color: white;
     text-align: center;
-    font-size: 7rem;
-    margin-top: 200px;
+    font-size: 8.5rem;
+    margin-top: 180px;
     margin-bottom: 30px;
   }
   .o2 {
-    font-family: "stolzl", sans-serif;
-    font-weight: 300;
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
     font-style: normal;
-    color: white;
+    color: orange;
     text-align: center;
     font-size: 3rem;
-    margin-top: 2px;
   }
 }

@@ -2,16 +2,19 @@
 @media (min-width: 800px) {
   .grid_1-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 100px;
   }
 }
-.mig {
-  width: auto;
-  height: 75;
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  align-items: center;
 }
+
 #overskrift_om_mig {
-  font-family: "stolzl", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: white;
@@ -19,21 +22,83 @@
   margin: 20px 7px;
   text-align: left;
 }
-/*WEB*/
+#overskrift_h3_om {
+  font-size: 5rem;
+}
+.mig {
+  width: 80%;
+  height: auto;
+  margin-top: 20%;
+}
 @media (min-width: 800px) {
-  h1 {
-    font-family: "stolzl", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: white;
-    font-size: 5rem;
+  .mig {
+    width: 100%;
+    height: auto;
+    margin-top: 30%;
   }
 }
 .knap_o {
   height: auto;
   width: 100%;
   display: flex;
-  justify-content: right;
+  justify-content: left;
   margin-top: 2px;
   margin-bottom: 30px;
+  margin-top: 30px;
+}
+.linje {
+  width: 150px;
+  height: auto;
+}
+#ps {
+  margin: 0 10px;
+  padding: 0;
+}
+#ps1 {
+  margin: 0 10px;
+  padding: 0;
+}
+#ps2 {
+  margin: 0 10px;
+  padding: 0;
+}
+#ps3 {
+  margin: 0 0 70px 10px;
+  padding: 0;
+}
+#skill {
+  margin: 10px 10px;
+  padding: 0;
+}
+#skill1 {
+  margin: 10px 10px;
+  padding: 0;
+}
+#skill2 {
+  margin: 10px 10px;
+  padding: 0;
+}
+#skill3 {
+  margin: 10px 10px;
+  padding: 0;
+}
+#skill4 {
+  margin: 10px 10px;
+  padding: 0;
+}
+#skill5 {
+  margin: 10px 10px;
+  padding: 0;
+}
+#skill6 {
+  margin: 10px 10px;
+  padding: 0;
+}
+#skill7 {
+  margin: 10px 10px;
+  padding: 0;
+}
+#skill8 {
+  margin: 10px 10px;
+  padding: 0;
 }
